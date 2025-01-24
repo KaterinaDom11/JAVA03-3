@@ -3,12 +3,12 @@ public class Main {
         CreditPaymentService service = new CreditPaymentService();
 
         System.out.println();
-        System.out.println((int) service.calculate(1_000_000, 1));
+        System.out.println((int) service.calculate(1_000_000, 9.99, 1));
 
         System.out.println();
-        System.out.println((int) service.calculate(1_000_000, 2));
+        System.out.println((int) service.calculate(1_000_000, 9.99, 2));
 
         System.out.println();
-        System.out.println((int) service.calculate(1_000_000, 3));
+        System.out.println((int) service.calculate(1_000_000, 9.99,3));
     }
 }
